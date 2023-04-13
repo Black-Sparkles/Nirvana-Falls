@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  padding: 3px;
+  height: 311px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+
+  text-align: center;
+
+  background-color: #ffffff;
+}
+.hero img {
+  width: 35%;
+  height: 19.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstp {
+  font-size: larger;
+  color: #9fa6b2;
+}
+
+.secondp {
+  font-size: larger;
+  color: #398378;
+}
+
+.thirdp {
+  font-size: larger;
+  color: #8abe53;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #8abe53;
+}
+
+.active {
+  background-color: #9fa6b2;
+}
+
+h1 {
+  text-align: center;
+  color: #398378;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+.property {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.property img {
+  width: 70%;
+  height: 30.5rem;
+  margin-bottom: 10px;
+}
+
+.property h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #398378;
+}
+
+.property .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #398378;
+}
+
+.property .details {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #9fa6b2;
+}
+
+.property .description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #398378;
+}
+
+#footer {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+}
+
+.condofuse:link {
+  font-size: 12px;
+
+  margin-right: 10px;
+  text-decoration: none;
+  color: #8abe53;
+}
+
+.condofuse:hover {
+  text-decoration: underline;
+  color: orangergb(230, 161, 28);
+}
+
+.condofuse:visited {
+  color: #8abe53;
+}
+
+.links {
+  font-size: 10px;
+  text-align: center;
+  padding-left: 15px;
+}
+
+#special {
+  font-size: 11px;
+}
